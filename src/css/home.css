@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    margin: 25px 90px;
+}
+
+.wrapper {
+    margin-bottom: 63px;
+}
+
+.card {
+    margin-right: 30px;
+    color: black;
+}
+
+.card .img {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.card .img .layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card .img .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.card .img img {
+    width: 100%;
+    height: 100%;
+}

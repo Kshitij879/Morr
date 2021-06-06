@@ -1,0 +1,33 @@
+.header {
+    height: 70px;
+    background-color: skyblue;
+    padding: 0px 60px;
+    color: white;
+    line-height: 70px;
+}
+
+.links {
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.button {
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 646px) {
+    body {
+        background-color: lightgreen;
+    }
+    .header {
+        height: 110px;
+        line-height: 50px;
+    }
+}
