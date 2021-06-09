@@ -17,6 +17,6 @@ For the architecture part, project has two main folders - src and public. Public
 
 # What would you do differently if you were allocated more time?
 1.If I have had more time, i would have created the login page, created component which would provide more information about the series or movie when clicked. 
-2.Create better css. 
+Create better css. 
 
 
