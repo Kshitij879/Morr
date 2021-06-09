@@ -11,9 +11,9 @@ For technical part, I have created a single page application using React. React 
 For the architecture part, project has two main folders - src and public. Public folder contains index.html and assets. Src folder contains components, css, App.js and react.js. React is basically the view part in MVC(Model View Controller) framework.
 
 # Are there any improvements you could make to your submission?
-1.Unit tests need to be covered.
+1 The website fetches the data from JSON file and show it in the pages.Currently I have saved the json file locally in the folder but I can make it more genral by connecting it with server and storing all the assests there.
 2.CSS needs to be improved [trying to follow with design as much as I can].
-3.Need to setup eslint and husky for pre-checking before commit.
+3
 
 # What would you do differently if you were allocated more time?
 1.If I have had more time, i would have created the login page, created component which would provide more information about the series or movie when clicked. 
